@@ -19,7 +19,7 @@ namespace csharp_fizzbuzz.Main
             this.nums = new String[higher - lower + 1];
             for (int i = lower, index = 0; i <= this.nums.Length; i++, index++)
             {
-                if ((i % 15) == 0)
+                if (((i % 3) == 0)&&((i % 5) == 0))
                 {
                     this.nums[index] = "Fizzbuzz";
                 }
