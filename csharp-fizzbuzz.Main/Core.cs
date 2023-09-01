@@ -28,7 +28,7 @@ namespace csharp_fizzbuzz.Main
             * */
             for (int i = 0; i < nums.Length; i++)
             {
-                if ((int.Parse(nums[i]) % 15) == 0)
+                if(((i % 3) == 0)&&((i % 5) == 0))
                 {
                     nums[i] = "Fizzbuzz";
                 }
